@@ -14,17 +14,35 @@
  *= require_self
  */
  
- 
  @import 'bootstrap-sprockets';
-@import 'bootstrap-sass';
+@import 'bootstrap';
+
  
  
 h1, h2, h3 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Dancing Script', cursive;
 }
 
 h4 {
     
     font-family: 'Open Sans', sans-serif;
 font-family: 'Indie Flower', cursive;
+}
+
+body{
+    
+    background: #c2e59c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+}
+
+.navbar{
+    background: #8E0E00;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+    
 }
