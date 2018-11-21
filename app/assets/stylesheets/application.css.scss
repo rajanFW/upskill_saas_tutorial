@@ -18,7 +18,7 @@
 @import 'bootstrap';
 
  
- 
+ // fond styling
 h1, h2, h3 {
     font-family: 'Dancing Script', cursive;
 }
@@ -29,6 +29,8 @@ h4 {
 font-family: 'Indie Flower', cursive;
 }
 
+
+//UI Gradient for the Background
 body{
     
  background: #c2e59c;  /* fallback for old browsers */
@@ -53,25 +55,16 @@ background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, F
     border: 10px;
     
 }
-
-.brand, {
+// Nacvar color
+.brand,.navbar-default .navbar-brand  {
     color:white;
+    &:hover{
+    color:white;
+    opacity:0.75; 
 }
-.brand:hover{
-  color:white;
-    opacity:0.75;  
-}
-
-.navbar-default .navbar-brand {    
-    color: white;
-}
-
-.navbar-default .navbar-brand:hover{
     
-    color:white;
-    opacity:0.75;
 }
-
+//home page style
 .home-page{
     color:white;
     margin-top: -22px;
