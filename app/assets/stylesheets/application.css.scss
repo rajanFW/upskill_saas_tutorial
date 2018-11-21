@@ -47,10 +47,29 @@ background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, F
 
 }
 .navbar{
-        padding: 0px;
+    
+    padding: 0px;
     margin: -10px;
     border: 10px;
     
+}
+
+.brand, {
+    color:white;
+}
+.brand:hover{
+  color:white;
+    opacity:0.75;  
+}
+
+.navbar-default .navbar-brand {    
+    color: white;
+}
+
+.navbar-default .navbar-brand:hover{
+    
+    color:white;
+    opacity:0.75;
 }
 
 .home-page{
